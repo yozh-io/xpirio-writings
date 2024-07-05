@@ -10,26 +10,30 @@ topics: "tokenomics; marketing; product; community"
 
 ## What Is a Cryptocurrency Airdrop?
 
-*A cryptocurrency airdrop is a marketing strategy that involves sending tokens to the wallets of active members of the blockchain community for free or in return for a small service in order to promote awareness and circulation of a new token.
+*A cryptocurrency airdrop is a marketing strategy that involves sending tokens to the wallets of active members of the product community for free or in return for a small service in order to promote awareness and circulation of a new token.  
 — Investopedia*
 
-While this description captures the essence of airdrops, it also hints at potential pitfalls. These issues can be divided based on the two main aspects of the description:
+While this description captures the essence of airdrops, it also hints at potential pitfalls. These issues can be divided based on the two main aspects of the description.
 
 ## “Sending Tokens for Free or …”
 
 This strategy often attracts participants who are primarily interested in short-term gains, leading to several interrelated problems:
 
-### Artificial Activity
+**1. Artificial Activity**
 
 The allure of free tokens often causes a rush of fake activity. People create multiple fake accounts (Sybil attacks) or use other tricks to get more tokens. This false engagement can make it seem like there's more interest in the project than there really is, leading to misleading metrics about community growth and user activity.
 
-### Market Dilution
+**2. Market Dilution**
 
 Because of the prevalence of Sybil users, long-term users who are genuinely interested in the project receive a lower share of the airdrop. When they see on social media that others, who are not genuinely interested and may be using bot farms, have received significantly more tokens, it can be disheartening. This disparity can harm the motivation of real users, causing them to leave the project.
 
-### Value Depreciation
+**3. Value Depreciation**
 
 Many recipients, lacking genuine interest in the project, quickly sell off their tokens, causing market oversupply and a subsequent drop in price. This devalues the token, negatively impacting long-term investors and undermining the project's perceived value.
+
+**Product Impact**
+
+At the conclusion of LayerZero's airdrop campaign, it was announced that 1.28 million wallets were eligible for the airdrop out of nearly 6 million unique wallet addresses that interacted with LayerZero since its launch. This means that approximately 78.6% of the wallet addresses were identified as Sybil addresses.
 
 ## “Promote a New Token”
 
