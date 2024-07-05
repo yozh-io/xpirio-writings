@@ -10,7 +10,7 @@ topics: "tokenomics; marketing; product; community"
 
 ## What Is a Cryptocurrency Airdrop?
 
-*A cryptocurrency airdrop is a marketing strategy that involves sending tokens to the wallets of active members of the product community for free or in return for a small service in order to promote awareness and circulation of a new token.  
+*A cryptocurrency airdrop is a marketing strategy that involves sending tokens to the wallets of active members of the blockchain community for free or in return for a small service in order to promote awareness and circulation of a new token.  
 — Investopedia*
 
 While this description captures the essence of airdrops, it also hints at potential pitfalls. These issues can be divided based on the two main aspects of the description.
