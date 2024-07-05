@@ -31,13 +31,19 @@ Because of the prevalence of Sybil users, long-term users who are genuinely inte
 
 Many recipients, lacking genuine interest in the project, quickly sell off their tokens, causing market oversupply and a subsequent drop in price. This devalues the token, negatively impacting long-term investors and undermining the project's perceived value.
 
-**Product Impact**
+**LayerZero Case**
 
-At the conclusion of LayerZero's airdrop campaign, it was announced that 1.28 million wallets were eligible for the airdrop out of nearly 6 million unique wallet addresses that interacted with LayerZero since its launch. This means that approximately 78.6% of the wallet addresses were identified as Sybil addresses.
+At the conclusion of LayerZero's airdrop campaign, it was announced that 1.28 million wallets were eligible for the airdrop out of nearly 6 million unique wallet addresses that interacted with LayerZero since its launch. This means that approximately 78.6% of the wallet addresses were identified as Sybil addresses. Additionally, LayerZero required a donation before claiming the airdrop, turning it into more of a sale and not meeting user expectations. These issues, among others, led to about 40% price drop in the first week.
 
 ## “Promote a New Token”
 
 The goal of promoting awareness and circulation of a new token often misaligns with what should be promoted. When the airdropped token lacks clear utility or integration within the project’s ecosystem, recipients, even if they are interested in the product, see little reason to hold onto it. This token is merely a "shitcoin," appealing only to short-term speculators. This misalignment fails to incentivize long-term cooperation and engagement, further diminishing the token’s and project's value.
+
+**ZKSync Case**
+
+While the ZK token has utility in theory—being used for transaction fees on the zkSync network—the lack of unique applications on the network diminishes its practical value. Without compelling use cases or applications to drive demand, the token's utility is limited, and users are less likely to find value in holding or using it.
+
+In the first three weeks after the zkSync airdrop, 40.6% of the top 10,000 addresses that received the ZK tokens completely sold them, and 41.4% partially sold their tokens. This created additional selling pressure for up to 16% of all allocated tokens. Consequently, only 17.9% of the recipients are still holding their tokens. This significant sell-off contributed to a 46% price drop, highlighting the harmful impact of this airdrop campaign on the token's value.
 
 ## Strategies for Effective Airdrop Campaigns
 
@@ -73,3 +79,7 @@ Combining these three strategies can transform your airdrop campaign into an eff
 And do not forget to effectively describe your airdrop campaign to your community so they understand what they are signing up for. Any misalignment can lead to losing users and reputation.
 
 ***Ready to elevate your airdrop campaign? [Book a free consultation with our experts right away!](https://calendly.com/artemfrantsiian-xpirio/30min)***
+
+## Links
+
+1. [Top 10k ZK Claimers](https://query.nansen.ai/public/dashboards/uHhTXjQbXiR6OCB1BXlmOAujStIPCfJdPleAknZa?org_slug=default)
