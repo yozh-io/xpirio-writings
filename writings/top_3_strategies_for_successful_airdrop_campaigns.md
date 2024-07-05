@@ -45,7 +45,7 @@ The goal of promoting awareness and circulation of a new token often misaligns w
 
 While the ZK token has utility in theory—being used for transaction fees on the zkSync network—the lack of unique applications on the network diminishes its practical value. Without compelling use cases or applications to drive demand, the token's utility is limited, and users are less likely to find value in holding or using it.
 
-![zkSync TOP 10k Claimers](https://raw.githubusercontent.com/yozh-io/xpirio-writings/3e931383cfba1e3689c9e4d4f14e074d77430255/images/top_3_strategies_for_successful_airdrop_campaigns/zksync_top10k.png)
+![zkSync TOP 10k Claimers](https://raw.githubusercontent.com/yozh-io/xpirio-writings/191375538c75910877d9f4f274df9378149caaee/images/top_3_strategies_for_successful_airdrop_campaigns/zksync_top10k.png)
 
 In the first three weeks after the zkSync airdrop, 40.6% of the top 10,000 addresses that received the ZK tokens completely sold them, and 41.4% partially sold their tokens. This created additional selling pressure for up to 16% of all allocated tokens. Consequently, only 17.9% of the recipients are still holding their tokens. This significant sell-off contributed to a 46% price drop, highlighting the harmful impact of this airdrop campaign on the token's value.
 
