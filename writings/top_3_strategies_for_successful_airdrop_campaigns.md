@@ -85,7 +85,7 @@ Combining these three strategies can transform your airdrop campaign into an eff
 And do not forget to effectively describe your airdrop campaign to your community so they understand what they are signing up for. Any misalignment can lead to losing users and reputation.
 
 ***Ready to elevate your airdrop campaign?  
-[Book a free consultation with our experts right away!](https://calendly.com/artemfrantsiian-xpirio/30min)***
+[Book a FREE CONSULTATION with our experts right away!](https://calendly.com/artemfrantsiian-xpirio/30min)***
 
 ## Links
 
