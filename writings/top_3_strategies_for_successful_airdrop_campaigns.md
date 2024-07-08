@@ -51,25 +51,25 @@ In the first three weeks after the zkSync airdrop, 40.6% of the top 10,000 addre
 
 ![zkSync Chart](https://raw.githubusercontent.com/yozh-io/xpirio-writings/3e931383cfba1e3689c9e4d4f14e074d77430255/images/top_3_strategies_for_successful_airdrop_campaigns/zksync_chart.png)
 
-## Strategies for Effective Airdrop Campaigns
+## Strategies for Successful Airdrop Campaigns
 
 To address the challenges of traditional airdrop campaigns, projects must adopt more strategic and targeted approaches. Here are some key strategies to enhance the effectiveness of airdrop campaigns:
 
-### 1. Align Airdrops with Product Metrics
+### Align Airdrops with Product Metrics
 
 Each product has its main metrics that drive success. Each token should have a clear utility tied to these metrics. Airdrop campaigns should be built around these core metrics to ensure that the distribution aligns with the project’s goals. The participation rate should be directly proportional to the airdrop share received. The more a user participates in activities that align with key metrics, the more tokens they receive. This can be effectively managed through a point-based system.
 
 **Example:**  
 If a product’s main metric is total value locked (TVL), points can be used to incentivize both the amount and duration of value locked. The more value a user locks, and the longer they lock it, the more points they earn. For fairness, 10 locks of 10 value should be equal in points to 1 lock of 100 value. This ensures users are rewarded for the total value they lock without being incentivized to manipulate the system by making multiple smaller locks. This encourages genuine participation and helps maintain the integrity of the airdrop campaign.
 
-### 2. Avoiding Leverage
+### Avoiding Leverage
 
 Providing additional incentives for specific actions, such as referrals, can be exploited by bots. Instead, ensure that any bonuses are derived from the user’s own points rather than additional incentives. This reduces the likelihood of exploitation and ensures that the referral program genuinely incentivizes finding new, real users.
 
 **Example:**  
 Instead of giving an additional 10% in tokens for each referral (which can be exploited), structure it so that referrers receive a percentage of the points earned by the new user. This way, the referrer benefits only if the new user is genuinely active.
 
-### 3. Incentivizing Long-Term Engagement
+### Incentivizing Long-Term Engagement
 
 Structure airdrop rewards to encourage long-term participation. Distributing tokens in phases based on continued involvement or holding periods can keep recipients engaged with the project over a longer term. Be open with your community at the start of the campaign by proposing these phases. This approach can attract users who are genuinely interested in your project and help avoid speculators.
 
