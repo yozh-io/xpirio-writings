@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Database connection setup
 const client = new Client({
-  connectionString: `postgresql://postgres:${process.env.DATABASE_PASSWORD}@localhost/postgres`,
+  connectionString: `postgresql://postgres:${process.env.DATABASE_PASSWORD}@127.0.0.1:5432/postgres`,
 });
 
 // Directory where markdown files are stored
@@ -16,6 +16,7 @@ const articlesDir = path.join(__dirname, './writings');
 // Function to read markdown files and save to the database
 async function updateArticles() {
   await client.connect();
+  console.log('Connection set up');
 
   const files = fs.readdirSync(articlesDir);
 
@@ -27,7 +28,7 @@ async function updateArticles() {
     // Use filename (without extension) as slug
     const slug = path.basename(file, path.extname(file));
 
-    console.log();
+    console.log(`File ${slug} is processing`);
 
     const article = {
       slug: slug,
@@ -42,6 +43,7 @@ async function updateArticles() {
     let res = await client.query('SELECT id FROM "Article" WHERE slug = $1', [slug]);
     let articleId;
     if (res.rows.length > 0) {
+      console.log('Update it in DB');
       // Update existing article
       articleId = res.rows[0].id;
       await client.query(
@@ -49,6 +51,7 @@ async function updateArticles() {
         [article.title, article.date, article.description, article.readtime, article.content, article.slug]
       );
     } else {
+      console.log('Insert it in DB');
       // Insert new article
       res = await client.query(
         'INSERT INTO "Article" (slug, title, date, description, readtime, content) VALUES ($1, $2, $3, $4, $5, $6) RETURNING id',
@@ -56,6 +59,7 @@ async function updateArticles() {
       );
       articleId = res.rows[0].id;
     }
+    console.log('File is up-to-date now');
 
     // Process topics
     const topics = data.topics.split(';').map((topic) => topic.trim());
@@ -65,6 +69,7 @@ async function updateArticles() {
       let topicRes = await client.query('SELECT id FROM "Topic" WHERE name = $1', [topicName]);
       let topicId;
       if (topicRes.rows.length === 0) {
+        console.log(`New topic ${topicName} was found and being inserted in DB`);
         // Insert new topic
         topicRes = await client.query('INSERT INTO "Topic" (name) VALUES ($1) RETURNING id', [topicName]);
         topicId = topicRes.rows[0].id;
@@ -78,6 +83,7 @@ async function updateArticles() {
         'INSERT INTO "_ArticleTopics" ("A", "B") VALUES ($1, $2) ON CONFLICT DO NOTHING',
         [articleId, topicId]
       );
+      console.log(`File is now associated with topic ${topicName}`);
     }
   }
 
