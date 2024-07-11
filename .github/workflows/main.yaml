@@ -22,7 +22,7 @@ jobs:
         run: npm i
 
       - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v0
+        uses: google-github-actions/auth
         with:
           credentials_json: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
 
@@ -38,4 +38,4 @@ jobs:
           ./cloud-sql-proxy animated-zenith-428816-g1:europe-west1:xpirio-site-db & sleep 2;
 
       - name: Run
-        run: node start
+        run: npm start
