@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Database connection setup
 const client = new Client({
-  connectionString: `postgresql://postgres:${process.env.DATABASE_PASSWORD}@127.0.0.1:5432/postgres`,
+  connectionString: `postgresql://postgres:${process.env.DATABASE_PASSWORD}@127.0.0.1:5432/mydatabase`,
 });
 
 // Directory where markdown files are stored
@@ -84,6 +84,31 @@ async function updateArticles() {
         [articleId, topicId]
       );
       console.log(`File is now associated with topic ${topicName}`);
+    }
+
+    // Process stages
+    const stages = data.stages.split(';').map((stages) => stages.trim());
+
+    // Insert or update topics and associate with the article
+    for (const stageName of stages) {
+      let stageRes = await client.query('SELECT id FROM "Stage" WHERE name = $1', [stageName]);
+      let stageId;
+      if (stageRes.rows.length === 0) {
+        console.log(`New topic ${stageName} was found and being inserted in DB`);
+        // Insert new topic
+        stageRes = await client.query('INSERT INTO "Stage" (name) VALUES ($1) RETURNING id', [stageName]);
+        stageId = stageRes.rows[0].id;
+      } else {
+        // Get existing topic ID
+        stageId = stageRes.rows[0].id;
+      }
+
+      // Associate topic with article
+      await client.query(
+        'INSERT INTO "_ArticleStages" ("A", "B") VALUES ($1, $2) ON CONFLICT DO NOTHING',
+        [articleId, stageId]
+      );
+      console.log(`File is now associated with stage ${stageName}`);
     }
   }
 
