@@ -1,7 +1,7 @@
 ---
 title: "TOP 3 Strategies for Successful Airdrop Campaigns"
 date: "2024-07-04"
-description: "Discover the most effective strategies to turn your airdrop campaigns into powerful tools for building a loyal and engaged user base."
+description: "Discover the top strategies to turn your airdrop campaigns into powerful tools for building a loyal and engaged user base."
 readtime: 8
 topics: "token; marketing; product; community"
 stages: "Idea/Concept; Startup"
