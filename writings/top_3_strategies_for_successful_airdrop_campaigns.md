@@ -5,6 +5,7 @@ description: "Discover the top strategies to turn your airdrop campaigns into po
 readtime: 8
 topics: "token; marketing; product; community"
 stages: "Idea/Concept; Startup"
+type: "tips"
 ---
 
 # TOP 3 Strategies for Successful Airdrop Campaigns

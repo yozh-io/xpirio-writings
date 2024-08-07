@@ -39,6 +39,18 @@ async function updateArticles() {
       content: content,
     };
 
+    let typeId;
+    // Insert or update stages and associate with the article
+    if (data.type) {
+      let typeRes = await client.query('SELECT id FROM "Expectation" WHERE type = $1', [data.type]);
+      if (typeRes.rows.length === 0) {
+        console.log(`New type was found and being inserted in DB`);
+      } else {
+        // Get existing topic ID
+        typeId = typeRes.rows[0].id;
+      }
+    }
+
     // Check if the article exists
     let res = await client.query('SELECT id FROM "Article" WHERE slug = $1', [slug]);
     let articleId;
@@ -47,15 +59,15 @@ async function updateArticles() {
       // Update existing article
       articleId = res.rows[0].id;
       await client.query(
-        'UPDATE "Article" SET title = $1, date = $2, description = $3, readtime = $4, content = $5 WHERE slug = $6',
-        [article.title, article.date, article.description, article.readtime, article.content, article.slug]
+        'UPDATE "Article" SET title = $1, date = $2, description = $3, readtime = $4, content = $5, "expectationId" = $7 WHERE slug = $6',
+        [article.title, article.date, article.description, article.readtime, article.content, article.slug, typeId]
       );
     } else {
       console.log('Insert it in DB');
       // Insert new article
       res = await client.query(
-        'INSERT INTO "Article" (slug, title, date, description, readtime, content) VALUES ($1, $2, $3, $4, $5, $6) RETURNING id',
-        [article.slug, article.title, article.date, article.description, article.readtime, article.content]
+        'INSERT INTO "Article" (slug, title, date, description, readtime, content, "expectationId") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING id',
+        [article.slug, article.title, article.date, article.description, article.readtime, article.content, typeId]
       );
       articleId = res.rows[0].id;
     }
@@ -89,15 +101,12 @@ async function updateArticles() {
     // Process stages
     const stages = data.stages.split(';').map((stages) => stages.trim());
 
-    // Insert or update topics and associate with the article
+    // Insert or update stages and associate with the article
     for (const stageName of stages) {
       let stageRes = await client.query('SELECT id FROM "Stage" WHERE name = $1', [stageName]);
       let stageId;
       if (stageRes.rows.length === 0) {
-        console.log(`New topic ${stageName} was found and being inserted in DB`);
-        // Insert new topic
-        stageRes = await client.query('INSERT INTO "Stage" (name) VALUES ($1) RETURNING id', [stageName]);
-        stageId = stageRes.rows[0].id;
+        console.log(`New stage ${stageName} was found`);
       } else {
         // Get existing topic ID
         stageId = stageRes.rows[0].id;
