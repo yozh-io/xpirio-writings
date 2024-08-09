@@ -14,17 +14,23 @@ This continuous influx increases on-chain noise, making it harder for new assets
 Despite the growing number of tokens, few high-quality products exist. 
 Consequently, to stand out in this crowded space, a clear value proposition, an understandable product, and effective tokenomics are essential.
 
-![DEX Chart](https://raw.githubusercontent.com/yozh-io/xpirio-writings/3e931383cfba1e3689c9e4d4f14e074d77430255/images/key_components_of_a_successful_web3_product_launch/dex_have_added_800k.png)
+![DEX Chart](https://raw.githubusercontent.com/yozh-io/xpirio-writings/main/images/key_components_of_a_successful_web3_product_launch/dex_have_added_800k.png)
 
 Here are crucial strategies for a successful Web3 product launch in this evolving market.
 
 ## Achieve Product-Market Fit (PMF)
 
 ### Identify Core Business Value
-To achieve Product-Market Fit (PMF), you must solve a specific problem for your target customers. Start by understanding who your customers are and how your product meets their needs. Clearly defining your value proposition is crucial, as it ensures your product addresses a genuine demand. This approach is essential for attracting and retaining users in a competitive market. By establishing a clear business value, you set a solid foundation for a successful Web3 product and effective tokenomics strategies.
+To achieve Product-Market Fit (PMF), you must solve a specific problem for your target customers. 
+Start by understanding who your customers are and how your product meets their needs. 
+Defining your value proposition clearly is essential—it confirms that your product addresses a real demand and helps attract and retain users. 
+This approach lays a strong foundation for both a successful Web3 product and effective tokenomics strategies.
 
 ### Avoid Misleading Performance Metrics
-You might be tempted to rely on traditional metrics like Total Value Locked (TVL), active wallets, daily active users, and daily transactions. However, these may not always reflect the true health of your product. Instead, focus on metrics that show user engagement and product value. Avoid creating a hub that only attracts short-term users, such as airdrop hunters or speculative traders. When launching your Web3 product, prioritize quality over quantity. This approach helps you build a robust, engaged community that truly benefits from your offering.
+You might be tempted to rely on traditional metrics like Total Value Locked (TVL), active wallets, daily active users, and daily transactions. 
+However, these may not always reflect the true health of your product. Instead, focus on metrics that show user engagement and product value. 
+Avoid creating a hub that only attracts short-term users, such as airdrop hunters or speculative traders.
+When launching your Web3 product, prioritize quality over quantity to build a robust, engaged community that truly benefits from your offering.
 
 ## Maximize Network Effects
 
@@ -34,12 +40,14 @@ Find brands that have your customers before you and could have them after you.
 Think of these brands as communities of customers and developers who can become your users and help you find your Product-Market Fit (PMF). 
 Ensure your partnerships go beyond logos and involve meaningful co-branding opportunities.
 
-For example, the Manta Network and BONK partnership with their "Dual Citizenship" program boosted the TVL of Manta's GullNetwork from $2.5M to $8M in just 14 days. BONK stakers received additional airdrops in MANTA, and Manta gained a new active user base of meme lovers. This was a win-win for both parties and users.
+For example, the Manta Network and BONK partnership with their "Dual Citizenship" program boosted the TVL of Manta's GullNetwork from $2.5M to $8M in just 14 days. 
+BONK stakers received additional airdrops in MANTA, and Manta gained a new active user base of meme lovers. 
+This was a win-win for both parties and users.
 
-![Partnership Chart](https://raw.githubusercontent.com/yozh-io/xpirio-writings/3e931383cfba1e3689c9e4d4f14e074d77430255/images/key_components_of_a_successful_web3_product_launch/partnership_example.png)
+![Partnership Chart](https://raw.githubusercontent.com/yozh-io/xpirio-writings/main/images/key_components_of_a_successful_web3_product_launch/partnership_example.png)
 
 ### Implement Effective Referral Systems
-You can turn drop hunters into long-term users with a good referral system. 
+By implementing a strong referral system, you can turn drop hunters into long-term users. 
 Focus on skillful marketing and effective task presentation to identify potential contributors among them. 
 Create engaging and rewarding referral programs to encourage drop hunters to invest in your product. 
 Highlight the long-term benefits and potential gains for users who actively participate and contribute. 
@@ -47,15 +55,15 @@ This strategy not only increases user retention but also builds a more robust an
 
 ### Leverage Onchain Social Growth
 You can expand your audience and find quality contributors by leveraging decentralized social networks. 
-For instance, Farcaster now has nearly 750,000 FIDs, and Lens has surpassed 430,000 unique handles in H1 2024. 
-With Twitter overrun by bots, these new networks offer a valuable alternative. 
+For instance, Farcaster now has nearly 750k FIDs, and Lens has surpassed 430k unique handles in H1 2024.
+Unlike Twitter, which is overrun by bots and has crypto-unfriendly policies, these new networks provide a valuable alternative. 
 Most users on these platforms are already familiar with the Web3 world, making it easier for you to connect with like-minded individuals and build a robust community around your product.
 
 ## Strategize Token Distribution
 
 ### Plan Effective Airdrops
-You can distribute tokens in a decentralized manner through airdrops. 
-This strategy can engage your community and ensure fair token distribution, helping you build a strong user base. 
+Airdrops are an effective way to engage your community and ensure fair token distribution. 
+This strategy helps you build a strong user base.
 However, it's crucial to plan and execute them effectively to avoid potential problems and attract the right users.
 
 * On average, founders allocate 20% of the total token supply to airdrops. 
@@ -64,7 +72,8 @@ Learn more about strategies for successful airdrops in our article: [TOP 3 Strat
 
 ### Balance Token Allocations
 You need to carefully manage team and investor allocations. 
-In a bull market, you may have more flexibility and influence, but it's essential to balance these allocations to maintain market confidence. 
+In a bull market, you may have more flexibility and influence, but it's essential to balance these allocations to maintain market confidence.
+This means setting clear criteria for distribution, ensuring transparency, and avoiding over-allocation that could dilute value or create conflicts of interest.
 
 * In 2024, public sales saw almost no distribution because the popularity of airdrops grew exponentially, changing the approach to public token distribution.
 
@@ -73,19 +82,19 @@ To make your product viable, focus on incentivizing a core group of users.
 Use growth programs, grants, liquidity mining, and yield farming to engage them. 
 Early on, airdrops can help attract users, but be mindful of your incentives pool. 
 As your product evolves, gradually reduce these incentives.
-Mistakes could happen, but establish a strong support system and avoid hyperinflation.
+Mistakes could happen, so establish a strong support system and avoid hyperinflation.
 
 ## Engage and Incentivize Community
 ### Identify and Empower Your Smart Users
 Smart users differ from project to project, and their behaviors can vary. 
 For instance, even a drop hunter might be a valuable audience if your product is designed for them.
 
-Although defining a “valuable user” can be tricky, you can spot them by these key traits:
+Although defining a smart user can be tricky, you can spot them by these key traits:
 * They use the product to meet their own needs, not just for profit.
 * They contribute to the product’s success, directly or indirectly.
 * They engage in protocol decisions, like those in a DAO.
 
-Focus on identifying and nurturing these smart or power users. 
+Focus on identifying and nurturing these smart users. 
 They can significantly influence your product’s direction and set trends. 
 Invest time in understanding who is using your product and how they interact with it.
 
@@ -115,7 +124,7 @@ Launching on multiple networks, including promising L2s, can help you overcome t
 
 * Transaction counts across L2s increased from about 5 million at the start of 2024 to between 7 and 10 million by July 2024.
 
-![Chains Chart](https://raw.githubusercontent.com/yozh-io/xpirio-writings/3e931383cfba1e3689c9e4d4f14e074d77430255/images/key_components_of_a_successful_web3_product_launch/daily_transactions.jpg)
+![Chains Chart](https://raw.githubusercontent.com/yozh-io/xpirio-writings/main/images/key_components_of_a_successful_web3_product_launch/daily_transactions.jpg)
 
 ## Ready to Launch?
 Launching your Web3 product requires careful planning, market insight, and active community engagement.
