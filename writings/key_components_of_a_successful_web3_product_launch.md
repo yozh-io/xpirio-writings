@@ -9,10 +9,10 @@ type: "tips"
 ---
 
 # Key Components for a Successful Web3 Product Launch
-In 2024, decentralized exchanges (DEXs) added approximately ~800k new tradeable assets, bringing the total to about 2.5 million on-chain assets. 
-This continuous influx increases on-chain noise, making it harder for new assets to gain visibility. 
-Despite the growing number of tokens, few high-quality products exist. 
-Consequently, to stand out in this crowded space, a clear value proposition, an understandable product, and effective tokenomics are essential.
+In 2024, decentralized exchanges (DEXs) added around ~800k new tradeable assets, bringing the total to about 2.5 million on-chain assets. 
+This growing number of tokens increases on-chain noise, making it harder for new assets to gain visibility. 
+Despite this influx, few high-quality products stand out. 
+To make your product visible in this crowded space, you need a clear value proposition, an understandable product, and effective tokenomics.
 
 ![DEX Chart](https://raw.githubusercontent.com/yozh-io/xpirio-writings/main/images/key_components_of_a_successful_web3_product_launch/dex_have_added_800k.png)
 
