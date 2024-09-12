@@ -97,8 +97,8 @@ In the competitive landscape of cryptocurrency, meaningful and measurable partne
 TokenTies equips you with the tools and insights needed to forge partnerships that truly align with your goals and drive long-term growth and engagement within your community. 
 Don’t leave your partnerships to chance — take control and empower your project with TokenTies.
 
-Start enhancing your crypto partnerships with TokenTies today. 
-**Contact us at tokenties@xpirio.xyz to request your FREE trial access.**
+
+**Be among the first to experience TokenTies** — Email us at tokenties@xpirio.xyz to reserve your spot for an upcoming demo and unlock the full potential of your collaborations.
 
 ## F.A.Q
 
