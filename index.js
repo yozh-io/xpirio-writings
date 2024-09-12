@@ -7,7 +7,7 @@ require('dotenv').config();
 
 // Database connection setup
 const client = new Client({
-  connectionString: `postgresql://postgres:${process.env.DATABASE_PASSWORD}@127.0.0.1:5432/mydatabase`,
+  connectionString: `postgresql://postgres:${process.env.DATABASE_PASSWORD}@127.0.0.1:5432/postgres`,
 });
 
 // Directory where markdown files are stored
